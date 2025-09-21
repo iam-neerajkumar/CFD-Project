@@ -46,7 +46,7 @@ Below are some sample plots generated from the simulation and visualized using T
 ![Streamfunction Contours](images/streamfunction_contours.png)
 
 ### Vorticity Contours  
-![Vorticity Contours](images/vorticity_contours.png)
+![Vorticity Contours](lid_driven/PLOTS/VORTICITY/vorticity_contoursRe_100.png).
 
 ## Reference
 
