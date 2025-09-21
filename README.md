@@ -1,20 +1,49 @@
 # 2D Lid-Driven Cavity Flow Simulation
 
-This project is a C program that simulates 2D lid-driven cavity flow using the finite difference method. It solves the incompressible Navier–Stokes equations using the streamfunction-vorticity formulation.
+This project implements a 2D lid-driven cavity flow simulation using the finite difference method. The solution is based on the streamfunction-vorticity formulation of the incompressible Navier–Stokes equations.
 
-## Features
+## Tech Stack
 
-- Simulates 2D lid-driven cavity flow
-- Finite difference method with central differencing
+- C Language  
+  Used to implement the numerical algorithm and solve the flow field.
+
+- Finite Difference Method
+
+- Tecplot  
+  Used to visualize streamlines, vorticity contours, velocity vectors and velocity profiles.
+
+- File Formats  
+  `.c` source code, `.dat` output files.
+
+## Simulation Details
+
 - Grid size: 128 × 128
 - Reynolds numbers: 100 and 400
-- Generates:
-  - Streamlines
-  - Velocity vectors
-  - Vorticity contours
-  - Velocity profiles
+- Outputs:
+  - Streamfunction
+  - Vorticity
+  - Velocity profiles (u and v)
+  - Visualization-ready `.dat` files for Tecplot
 
 ## Validation
 
-Velocity profiles from the simulation are compared with benchmark results from Ghia et al. (1982). The results show good agreement, confirming the accuracy of the method.
+Results are validated by comparing velocity profiles with benchmark data from Ghia et al. (1982), showing good agreement.
+
+## Output Files
+
+- streamlines.dat  
+- vorticity.dat  
+- u_velocity.dat  
+- v_velocity.dat  
+
+These files can be opened in Tecplot for plotting.
+
+## Reference
+
+Ghia, U., Ghia, K. N., & Shin, C. T. (1982).  
+
+## Author
+
+Neeraj Kumar
+
 
