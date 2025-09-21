@@ -42,8 +42,8 @@ These files can be opened in Tecplot for plotting.
 
 Below are some sample plots generated from the simulation and visualized using Tecplot:
 
-### Streamfunction Contours  
-![Streamfunction Contours](images/streamfunction_contours.png)
+### Streamlines Contours  
+![Streamfunction Contours](lid_driven/PLOTS/STREAMLINES/streamlines_Re100.png)
 
 ### Vorticity Contours  
 ![Vorticity Contours](lid_driven/PLOTS/VORTICITY/vorticity_contoursRe_100.png).
