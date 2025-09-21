@@ -38,6 +38,16 @@ Results are validated by comparing velocity profiles with benchmark data from Gh
 
 These files can be opened in Tecplot for plotting.
 
+## Visualization
+
+Below are some sample plots generated from the simulation and visualized using Tecplot:
+
+### Streamfunction Contours  
+![Streamfunction Contours](images/streamfunction_contours.png)
+
+### Vorticity Contours  
+![Vorticity Contours](images/vorticity_contours.png)
+
 ## Reference
 
 Ghia, U., Ghia, K. N., & Shin, C. T. (1982).  
